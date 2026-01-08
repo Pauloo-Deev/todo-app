@@ -78,10 +78,8 @@ Foco em **UI/UX elegante**, componentes reutilizáveis e código limpo com **Typ
 
 ## 📸 Preview
 
-> Adicione aqui prints do projeto (recomendado)
-
-- `./docs/preview-1.png`
-- `./docs/preview-2.png`
+![alt text](docs/preview-1.png)
+![alt text](docs/preview-2.png)
 
 ---
 
