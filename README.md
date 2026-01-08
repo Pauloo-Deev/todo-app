@@ -1,46 +1,147 @@
-# Getting Started with Create React App
+# Todo App (Kanban) — React + TypeScript + Tailwind
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação de tarefas estilo **Kanban** com 3 colunas (**To Do**, **Doing**, **Done**), permitindo **criar, editar, excluir**, avançar status e **arrastar e soltar** tarefas entre colunas.  
+Foco em **UI/UX elegante**, componentes reutilizáveis e código limpo com **TypeScript**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Funcionalidades
 
-### `npm start`
+- ✅ Criar tarefas via modal
+- ✏️ Editar tarefas (modal pré-preenchida)
+- 🗑️ Excluir tarefas
+- 🔁 Avançar status (To Do → Doing → Done → To Do)
+- 🧲 Drag & Drop (arrastar e soltar cards entre colunas)
+- 🎬 Modal com animação de entrada/saída
+- 🎨 Layout moderno com Tailwind CSS
+- ♿ Melhorias de acessibilidade (labels, aria, foco)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧰 Tecnologias
 
-### `npm test`
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Lucide React** (ícones)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📸 Preview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Adicione aqui prints do projeto (recomendado)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `./docs/preview-1.png`
+- `./docs/preview-2.png`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Como rodar localmente
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 1) Clonar o repositório
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone <URL_DO_SEU_REPO>
+cd todo-app
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Instalar dependências
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Todo App (Kanban) — React + TypeScript + Tailwind
 
-## Learn More
+Aplicação de tarefas estilo **Kanban** com 3 colunas (**To Do**, **Doing**, **Done**), permitindo **criar, editar, excluir**, avançar status e **arrastar e soltar** tarefas entre colunas.  
+Foco em **UI/UX elegante**, componentes reutilizáveis e código limpo com **TypeScript**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ✨ Funcionalidades
+
+- ✅ Criar tarefas via modal
+- ✏️ Editar tarefas (modal pré-preenchida)
+- 🗑️ Excluir tarefas
+- 🔁 Avançar status (To Do → Doing → Done → To Do)
+- 🧲 Drag & Drop (arrastar e soltar cards entre colunas)
+- 🎬 Modal com animação de entrada/saída
+- 🎨 Layout moderno com Tailwind CSS
+- ♿ Melhorias de acessibilidade (labels, aria, foco)
+
+---
+
+## 🧰 Tecnologias
+
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Lucide React** (ícones)
+
+---
+
+## 📸 Preview
+
+> Adicione aqui prints do projeto (recomendado)
+
+- `./docs/preview-1.png`
+- `./docs/preview-2.png`
+
+---
+
+## 🚀 Como rodar localmente
+
+### 1) Clonar o repositório
+
+```bash
+git clone <URL_DO_SEU_REPO>
+cd todo-app
+```
+
+### 2) Instalar dependências
+
+```bash
+npm install
+```
+
+### 3) Rodar o projeto
+
+```bash
+npm run dev
+```
+
+A aplicação estará disponível em:
+
+```
+http://localhost:5173
+```
+
+_(ou a porta exibida no terminal)_
+
+---
+
+## 🗂️ Estrutura do projeto (resumo)
+
+```text
+src/
+ ├─ components/
+ │   ├─ HeaderComponent
+ │   ├─ FooterComponent
+ │   ├─ TaskBackgroundComponent   # Colunas + Drop Zones
+ │   ├─ CardTaskComponent         # Cards + Drag + Edit
+ │   └─ ModalFormComponent        # Create/Edit com animações
+ ├─ App.tsx                       # Estado principal e regras do board
+ └─ main.tsx
+```
+
+---
+
+## 💡 Próximas melhorias
+
+- Persistência de dados (LocalStorage / Firebase / API)
+- Reordenação manual de cards dentro da mesma coluna
+- Sistema de prioridades
+- Filtros e busca de tarefas
+- Datas de entrega e notificações
+
+---
+
+## 📝 Licença
+
+Este projeto é livre para fins educacionais e evolução pessoal.
